@@ -1,0 +1,12 @@
+body {
+    padding-top: 5rem;
+}
+#profile_pic{
+  border: black solid 2px;
+  float: left;
+}
+#profile_info{
+  border: black solid 2px;
+  float: left;
+}
+clear:both;

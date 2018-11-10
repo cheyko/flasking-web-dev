@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block main %}
+
+<h1> Profile </h1>
+
+<hr> </hr>
+
+<div class = "the_container">
+
+  <div id = "profile_pic">
+      <!-- img src="{{ url_for('static',filename='mewtwo.jpg') }} " class="img-responsive" alt="" -->
+
+      <img src="../static/mewtwo.jpg" class="img-responsive" alt="">
+  </div>
+
+  <div id = "profile_info">
+    <h2> Obi-Wan kenobi <h2>
+
+    <a> Today's date is {{ currentTime }} </a>
+
+    <hr> </hr>
+
+    <p> <span>Username : </span> Obi-1 </p>
+    <p> <span>ID Number : </span> 620041241 </p>
+    <p> <span>Age : </span> 57 </p>
+    <p> <span>Gender : </span> Male </p>
+
+    <hr> </hr>
+
+    <a> I am a legendary Jedi Master </a>
+
+  </div>
+
+
+</div>
+
+{% endblock %}
